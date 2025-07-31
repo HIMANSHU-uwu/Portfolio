@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+#liked-songs-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#liked-songs-list {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+}
+
+#liked-songs-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#liked-songs-list li:hover {
+    background-color: #f1f1f1;
+}

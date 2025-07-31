@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BEAT HEAVEN MUSIC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class="header">
+        <div class="left-section">
+            <button class="hamburger-menu" id="hamburger-btn">
+                <img src="Icons/hamburger-menu.svg" alt="Menu">
+            </button>
+            <img class="youtube-logo" src="channel-pictures/mplogo.jpg" alt="YouTube Logo">
+            <div class="logo">BEAT HEAVEN</div>
+        </div>
+        <div class="middle-section">
+            <input type="text" id="search-bar" placeholder="Search for a song..." />
+            <button class="search-button">
+                <img class="search-icon" src="Icons/search.svg" alt="Search">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="Icons/voice-search-icon.svg" alt="Voice Search">
+            </button>
+        </div>
+        <div class="right-section">
+            <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+            <img class="upload-icon" src="Icons/upload.svg" alt="Upload">
+            <img class="youtube-apps-icon" src="Icons/youtube-apps.svg" alt="YouTube Apps">
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="Icons/notifications.svg" alt="Notifications">
+                <div class="notifications-count">9+</div>
+            </div>
+            <img class="current-user-picture" src="channel-pictures/profilephoto.jpg" alt="User Profile">
+        </div>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <a href="youtube.html" class="sidebar-link">
+            <img src="Icons/home.svg" alt="Home">
+            <div>Home</div>
+        </a>
+        <a href="like.html" class="sidebar-link">
+            <img src="Icons/liked.png" alt="Liked Songs">
+            <div>Liked Songs</div>
+        </a>
+        <a href="subsciption.html" class="sidebar-link">
+            <img src="Icons/subscriptions.svg" alt="Subscriptions">
+            <div>Subscriptions</div>
+        </a>
+        <a href="premium.html" class="sidebar-link">
+            <img src="Icons/youtube-music.svg" alt="Premium">
+            <div>Premium</div>
+        </a>
+        <a href="our work.html" class="sidebar-link">
+            <img src="Icons/library.svg" alt="About">
+            <div>About</div>
+        </a>
+    </div>
+</body>
+</html>
+
+        
+    
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row" data-audio-src="audio/Tauba Tauba.mp3" data-title="Tauba Tauba" data-author="Karan Aujla" data-duration="3:45">
+                <img class="thumbnail"  src="thumbnails/tauba tauba.jpg">
+                <div class="video-time">
+                    3:45
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture" >
+                    <img class="profile-picture" src="channel-pictures/taubataubadp.jpeg">
+                </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                        Tauba Tauba ("From Newz")
+                    </p>
+                        <p class="video-author">
+                        KARAN AUJLA
+                    </p>
+
+                    <p class="video-stats">
+                        128M Plays
+                    </p>
+
+                    <button class="like-button">❤️</button>
+                </div>
+            </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row" data-audio-src="audio/Softly.mp3" data-title="Softly" data-author="Karan Aujla" data-duration="2:59">
+                    <img class="thumbnail"  src="thumbnails/softly.jpeg">
+                    <div class="video-time">
+                        2:59
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                        <img class="profile-picture" src="channel-pictures/softlycp.jpeg">
+                    </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                            Softly 
+                        </p>
+                            <p class="video-author">
+                            KARAN AUJLA
+                        </p>
+                
+                        <p class="video-stats">
+                            238M Plays
+                        </p>
+                        <button class="like-button">❤️</button>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="video-preview">
+                    <div class="thumbnail-row" data-audio-src="audio/Gumaan.mp3" data-title="Gumaan" data-author="Talha Anjum" data-duration="4:20">
+                        <img class="thumbnail"  src="thumbnails/gumaan.jpg">
+                        <div class="video-time">
+                            4:20
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture" >
+                            <img class="profile-picture" src="channel-pictures/talha.jpeg">
+                        </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    Gumaan - Young Stunners
+                            </p>
+                                <p class="video-author">
+                                    Young Stunners,Talha Anjum
+                            </p>
+                    
+                            <p class="video-stats">
+                                12M Plays
+                            </p>
+                            <button class="like-button">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="video-preview">
+                        <div class="thumbnail-row" data-audio-src="audio/been A While.mp3" data-title="Been A While" data-author="KR$NA" data-duration="3:48">
+                            <img class="thumbnail"  src="thumbnails/been.jpg">
+                            <div class="video-time">
+                                3:48
+                            </div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-picture" >
+                                <img class="profile-picture" src="channel-pictures/been.jpg">
+                            </div>
+                                <div class="video-info">
+                                    <p class="video-title">
+                                        Been A While
+                                </p>
+                                    <p class="video-author">
+                                        
+                                        KR$NA   
+                                    
+                                </p>
+                        
+                                <p class="video-stats">
+                                    83M Plays
+                                </p>
+                                <button class="like-button">❤️</button>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="video-preview">
+                            <div class="thumbnail-row" data-audio-src="audio/Level.mp3" data-title="Levels" data-author="Sidhu Moose Wala" data-duration="3:52">
+                                <img class="thumbnail"  src="thumbnails/level.webp">
+                                <div class="video-time">
+                                    3:52
+                                </div>
+                            </div>
+                            <div class="video-info-grid">
+                                <div class="channel-picture" >
+                                    <img class="profile-picture" src="channel-pictures/sidhu.jpg">
+                                </div>
+                                    <div class="video-info">
+                                        <p class="video-title">
+                                            Levels
+                                    </p>
+                                        <p class="video-author">
+                                        SIDHU MOOSE WALA
+                                    </p>
+                            
+                                    <p class="video-stats">
+                                        405M Plays
+                                    </p>
+                                    <button class="like-button">❤️</button>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="video-preview">
+                                <div class="thumbnail-row" data-audio-src="audio/lifestyle.mp3" data-title="lifestyle" data-author="Sidhu Moose Wala" data-duration="4:18">
+                                    <img class="thumbnail"  src="thumbnails/lifestyle.webp">
+                                    <div class="video-time">
+                                        4:18
+                                    </div>
+                                </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-picture" >
+                                        <img class="profile-picture" src="channel-pictures/sidhu.jpg">
+                                    </div>
+                                        <div class="video-info">
+                                            <p class="video-title">
+                                                lifestyle
+                                        </p>
+                                            <p class="video-author">
+                                            SIDHU MOOSE WALA
+                                        </p>
+                                
+                                        <p class="video-stats">
+                                            125M Plays
+                                        </p>
+                                        <button class="like-button">❤️</button>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="video-preview">
+                                    <div class="thumbnail-row" data-audio-src="audio/hoshwalon.mp3" data-title="Hoshwalon Ko Khabar Kya" data-author="Jagjit Singh" data-duration="5:07">
+                                        <img class="thumbnail"  src="thumbnails/hoshwalon.webp">
+                                        <div class="video-time">
+                                            5:07
+                                        </div>
+                                    </div>
+                                    <div class="video-info-grid">
+                                        <div class="channel-picture" >
+                                            <img class="profile-picture" src="channel-pictures/jagjit.jpeg">
+                                        </div>
+                                            <div class="video-info">
+                                                <p class="video-title">
+                                                    Hoshwalon Ko Khabar Kya
+                                            </p>
+                                                <p class="video-author">
+                                                JAGJIT SINGH
+                                            </p>
+                                    
+                                            <p class="video-stats">
+                                                405M Plays
+                                            </p>
+                                            <button class="like-button">❤️</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="video-preview">
+                                        <div class="thumbnail-row" data-audio-src="audio/one bottle down.mp3" data-title="One Bottle Down" data-author="Honey Singh" data-duration="3:17">
+                                            <img class="thumbnail"  src="thumbnails/bottle.webp">
+                                            <div class="video-time">
+                                                3:17
+                                            </div>
+                                        </div>
+                                        <div class="video-info-grid">
+                                            <div class="channel-picture" >
+                                                <img class="profile-picture" src="channel-pictures/honey.jpg">
+                                            </div>
+                                                <div class="video-info">
+                                                    <p class="video-title">
+                                                        One Bottle Down
+                                                </p>
+                                                    <p class="video-author">
+                                                    YO YO HONEY SINGH
+                                                </p>
+                                        
+                                                <p class="video-stats">
+                                                    40M Plays
+                                                </p>
+                                                <button class="like-button">❤️</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="video-preview">
+                                            <div class="thumbnail-row" data-audio-src="audio/hothon.mp3" data-title="Hothon Se Chhu Tum" data-author="Jagjit Singh" data-duration="4:57">
+                                                <img class="thumbnail"  src="thumbnails/hothon.webp">
+                                                <div class="video-time">
+                                                    4:57
+                                                </div>
+                                            </div>
+                                            <div class="video-info-grid">
+                                                <div class="channel-picture" >
+                                                    <img class="profile-picture" src="channel-pictures/jagjit.jpeg">
+                                                </div>
+                                                    <div class="video-info">
+                                                        <p class="video-title">
+                                                            Hothon se Chhu Lo Tum
+                                                    </p>
+                                                        <p class="video-author">
+                                                        JAGJIT SINGH
+                                                    </p>
+                                            
+                                                    <p class="video-stats">
+                                                        48M Plays
+                                                    </p>
+                                                    <button class="like-button">❤️</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="video-preview">
+                                                <div class="thumbnail-row" data-audio-src="audio/gulabi.mp3" data-title="Gulabi Aankhein" data-author="Sanam" data-duration="3:17">
+                                                    <img class="thumbnail"  src="thumbnails/gulabi.webp">
+                                                    <div class="video-time">
+                                                        3:17
+                                                    </div>
+                                                </div>
+                                                <div class="video-info-grid">
+                                                    <div class="channel-picture" >
+                                                        <img class="profile-picture" src="channel-pictures/sanam.jpg">
+                                                    </div>
+                                                        <div class="video-info">
+                                                            <p class="video-title">
+                                                                Gulabi Aankhein
+                                                                
+                                                        </p>
+                                                            <p class="video-author">
+                                                            SANAM
+                                                        </p>
+                                                
+                                                        <p class="video-stats">
+                                                            405M Plays
+                                                        </p>
+                                                        <button class="like-button">❤️</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                <div class="video-preview">
+                                                    <div class="thumbnail-row" data-audio-src="audio/likhe.mp3" data-title="Likhe Jo Khat Tujhe" data-author="Mohammed Rafi" data-duration="4:33">
+                                                        <img class="thumbnail"  src="thumbnails/likhe.webp">
+                                                        <div class="video-time">
+                                                            4:33
+                                                        </div>
+                                                    </div>
+                                                    <div class="video-info-grid">
+                                                        <div class="channel-picture" >
+                                                            <img class="profile-picture" src="channel-pictures/rafi.jpg">
+                                                        </div>
+                                                            <div class="video-info">
+                                                                <p class="video-title">
+                                                                    Likhe Jo Khat Tujhe
+                                                            </p>
+                                                                <p class="video-author">
+                                                                MOHAMMED RAFI
+                                                            </p>
+                                                    
+                                                            <p class="video-stats">
+                                                                98M Views
+                                                            </p>
+                                                            <button class="like-button">❤️</button>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="video-preview">
+                                                        <div class="thumbnail-row" data-audio-src="audio/rang.mp3" data-title="Mere Rang Me Rangne Wali" data-author="S P Balasubramaniam" data-duration="6:52">
+                                                            <img class="thumbnail"  src="thumbnails/rang.webp">
+                                                            <div class="video-time">
+                                                                6:52
+                                                            </div>
+                                                        </div>
+                                                        <div class="video-info-grid">
+                                                            <div class="channel-picture" >
+                                                                <img class="profile-picture" src="channel-pictures/rang.jpg">
+                                                            </div>
+                                                                <div class="video-info">
+                                                                    <p class="video-title">
+                                                                        MERE RANG ME RANGNE WALI
+                                                                </p>
+                                                                    <p class="video-author">
+                                                                        S P Balasubramaniam
+                                                                </p>
+                                                        
+                                                                <p class="video-stats">
+                                                                    98M Plays
+                                                                </p>
+                                                                <button class="like-button">❤️</button>
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                        <div class="video-preview">
+                                                            <div class="thumbnail-row" data-audio-src="audio/naina.mp3" data-title="Tere Naina" data-author="Shajaqat Amanat Ali" data-duration="4:38">
+                                                                <img class="thumbnail"  src="thumbnails/naina.webp">
+                                                                <div class="video-time">
+                                                                    4:38
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-info-grid">
+                                                                <div class="channel-picture" >
+                                                                    <img class="profile-picture" src="channel-pictures/naina.jpg">
+                                                                </div>
+                                                                    <div class="video-info">
+                                                                        <p class="video-title">
+                                                                            Tere Naina
+                                                                    </p>
+                                                                        <p class="video-author">
+                                                                            SHAFAQAT AMANAT ALI
+                                                                    </p>
+                                                            
+                                                                    <p class="video-stats">
+                                                                        476M Plays
+                                                                    </p>
+                                                                    <button class="like-button">❤️</button>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                            <div class="video-preview">
+                                                                <div class="thumbnail-row" data-audio-src="audio/piya.mp3" data-title="O Re Piya" data-author="Nusrat Fateh Ali Khan" data-duration="3:19">
+                                                                    <img class="thumbnail"  src="thumbnails/piya.webp">
+                                                                    <div class="video-time">
+                                                                        3:19
+                                                                    </div>
+                                                                </div>
+                                                                <div class="video-info-grid">
+                                                                    <div class="channel-picture" >
+                                                                        <img class="profile-picture" src="channel-pictures/nusrat.jpeg">
+                                                                    </div>
+                                                                        <div class="video-info">
+                                                                            <p class="video-title">
+                                                                                O Re Piya
+                                                                        </p>
+                                                                            <p class="video-author">
+                                                                            NUSRAT FATEH ALI KHAN
+                                                                        </p>
+                                                                
+                                                                        <p class="video-stats">
+                                                                            405M Plays
+                                                                        </p>
+                                                                        <button class="like-button">❤️</button>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                                <div class="video-preview">
+                                                                    <div class="thumbnail-row" data-audio-src="audio/rishte.mp3" data-title="Rishte Naate" data-author="Nusrat Fateh Ali Khan" data-duration="4:46">
+                                                                        <img class="thumbnail"  src="thumbnails/rishte.webp">
+                                                                        <div class="video-time">
+                                                                            4:46
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="video-info-grid">
+                                                                        <div class="channel-picture" >
+                                                                            <img class="profile-picture" src="channel-pictures/nusrat.jpeg">
+                                                                        </div>
+                                                                            <div class="video-info">
+                                                                                <p class="video-title">
+                                                                                    Rishte Naate
+                                                                            </p>
+                                                                                <p class="video-author">
+                                                                                NUSRAT FATEH ALI KHAN
+                                                                            </p>
+                                                                    
+                                                                            <p class="video-stats">
+                                                                                405k Plays
+                                                                            </p>
+                                                                            <button class="like-button">❤️</button>
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="video-preview">
+                                                                        <div class="thumbnail-row" data-audio-src="audio/tune.mp3" data-title="Tune Kya kiya" data-author="Javed Bashir" data-duration="5:14">
+                                                                            <img class="thumbnail"  src="thumbnails/tune.webp">
+                                                                            <div class="video-time">
+                                                                                5:14
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="video-info-grid">
+                                                                            <div class="channel-picture" >
+                                                                                <img class="profile-picture" src="channel-pictures/nusrat.jpeg">
+                                                                            </div>
+                                                                                <div class="video-info">
+                                                                                    <p class="video-title">
+                                                                                        Ye Tune Kya Kiya
+                                                                                </p>
+                                                                                    <p class="video-author">
+                                                                                        JAVED BASHIR
+                                                                                </p>
+                                                                        
+                                                                                <p class="video-stats">
+                                                                                    68M Plays
+                                                                                </p>
+                                                                                <button class="like-button">❤️</button>
+                                                                            </div>
+                                                                        </div>
+                                                                        </div>
+                                                                        <div class="video-preview">
+                                                                            <div class="thumbnail-row" data-audio-src="audio/haan.mp3" data-title="Haan Haiga Aa" data-author="Karan Aujla" data-duration="4:01">
+                                                                                <img class="thumbnail"  src="thumbnails/haan.webp">
+                                                                                <div class="video-time">
+                                                                                    4:01
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="video-info-grid">
+                                                                                <div class="channel-picture" >
+                                                                                    <img class="profile-picture" src="channel-pictures/taubataubadp.jpeg">
+                                                                                </div>
+                                                                                    <div class="video-info">
+                                                                                        <p class="video-title">
+                                                                                            Haan Haiga Aa
+                                                                                    </p>
+                                                                                        <p class="video-author">
+                                                                                        KARAN AUJLA
+                                                                                    </p>
+                                                                            
+                                                                                    <p class="video-stats">
+                                                                                        96M Plays
+                                                                                    </p>
+                                                                                    <button class="like-button">❤️</button>
+                                                                                </div>
+                                                                            </div>
+                                                                            </div>
+                                                                            <div class="video-preview">
+                                                                                <div class="thumbnail-row" data-audio-src="audio/rani.mp3" data-title="Maharani" data-author="Arpit Bala" data-duration="6:42">
+                                                                                    <img class="thumbnail"  src="thumbnails/rani.webp">
+                                                                                    <div class="video-time">
+                                                                                        6:42
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="video-info-grid">
+                                                                                    <div class="channel-picture" >
+                                                                                        <img class="profile-picture" src="channel-pictures/arpit.jpeg">
+                                                                                    </div>
+                                                                                        <div class="video-info">
+                                                                                            <p class="video-title">
+                                                                                                Maharani
+                                                                                        </p>
+                                                                                            <p class="video-author">
+                                                                                            ARPIT BALA
+                                                                                        </p>
+                                                                                
+                                                                                        <p class="video-stats">
+                                                                                            405k Plays
+                                                                                        </p>
+                                                                                        <button class="like-button">❤️</button>
+                                                                                    </div>
+                                                                                </div>
+                                                                                </div>
+                                                                                <div class="video-preview">
+                                                                                    <div class="thumbnail-row" data-audio-src="audio/ranj.mp3" data-title="Raanjhnaa" data-author="A R Rahman" data-duration="4:16">
+                                                                                        <img class="thumbnail"  src="thumbnails/ranj.webp">
+                                                                                        <div class="video-time">
+                                                                                            4:16
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="video-info-grid">
+                                                                                        <div class="channel-picture" >
+                                                                                            <img class="profile-picture" src="channel-pictures/naina.jpg">
+                                                                                        </div>
+                                                                                            <div class="video-info">
+                                                                                                <p class="video-title">
+                                                                                                    Raanjhnaa
+                                                                                            </p>
+                                                                                                <p class="video-author">
+                                                                                                A R RAHMAN
+                                                                                            </p>
+                                                                                    
+                                                                                            <p class="video-stats">
+                                                                                                405k views &#183; 4 months ago
+                                                                                            </p>
+                                                                                            <button class="like-button">❤️</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="video-preview">
+                                                                                        <div class="thumbnail-row" data-audio-src="audio/wada.mp3" data-title="Kya Hua Tera Wada" data-author="Mohammed Rafi" data-duration="4:18">
+                                                                                            <img class="thumbnail"  src="thumbnails/wada.webp">
+                                                                                            <div class="video-time">
+                                                                                                4:18
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="video-info-grid">
+                                                                                            <div class="channel-picture" >
+                                                                                                <img class="profile-picture" src="channel-pictures/rafi.jpg">
+                                                                                            </div>
+                                                                                                <div class="video-info">
+                                                                                                    <p class="video-title">
+                                                                                                        Kya Hua Tera Wada
+                                                                                                </p>
+                                                                                                    <p class="video-author">
+                                                                                                    MOHAMMED RAFI
+                                                                                                </p>
+                                                                                        
+                                                                                                <p class="video-stats">
+                                                                                                    405M Plays
+                                                                                                </p>
+                                                                                                <button class="like-button">❤️</button>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        
+                                                                                        </div>
+                                                                                        <div class="video-preview">
+                                                                                            <div class="thumbnail-row" data-audio-src="audio/borderline.mp3" data-title="Borderline" data-author="Tame Impala" data-duration="3:57">
+                                                                                                <img class="thumbnail"  src="thumbnails/line.webp">
+                                                                                                <div class="video-time">
+                                                                                                    3:57
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="video-info-grid">
+                                                                                                <div class="channel-picture" >
+                                                                                                    <img class="profile-picture" src="channel-pictures/tame.jpg">
+                                                                                                </div>
+                                                                                                    <div class="video-info">
+                                                                                                        <p class="video-title">
+                                                                                                            Borderline
+                                                                                                    </p>
+                                                                                                        <p class="video-author">
+                                                                                                            Tame Impala
+                                                                                                    </p>
+                                                                                            
+                                                                                                    <p class="video-stats">
+                                                                                                        978M Plays
+                                                                                                    </p>
+                                                                                                    <button class="like-button">❤️</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            </div>
+                                                                                            <div class="video-preview">
+                                                                                                <div class="thumbnail-row" data-audio-src="audio/better.mp3" data-title="The Less I Know The Better" data-author="Tame Impala" data-duration="3:37">
+                                                                                                    <img class="thumbnail"  src="thumbnails/better.webp">
+                                                                                                    <div class="video-time">
+                                                                                                        3:37
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="video-info-grid">
+                                                                                                    <div class="channel-picture" >
+                                                                                                        <img class="profile-picture" src="channel-pictures/tame.jpg">
+                                                                                                    </div>
+                                                                                                        <div class="video-info">
+                                                                                                            <p class="video-title">
+                                                                                                                The Less I Know The Better
+                                                                                                        </p>
+                                                                                                            <p class="video-author">
+                                                                                                                Tame Impala
+                                                                                                        </p>
+                                                                                                
+                                                                                                        <p class="video-stats">
+                                                                                                           54M Plays 
+                                                                                                        </p>
+                                                                                                        <button class="like-button">❤️</button>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                </div>
+                                                                                                <div class="video-preview">
+                                                                                                    <div class="thumbnail-row" data-audio-src="audio/heaven.mp3" data-title="Heaven Knows I'm Miserable Now" data-author="The Smiths" data-duration="3:40">
+                                                                                                        <img class="thumbnail"  src="thumbnails/heaven.webp">
+                                                                                                        <div class="video-time">
+                                                                                                            3:40
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="video-info-grid">
+                                                                                                        <div class="channel-picture" >
+                                                                                                            <img class="profile-picture" src="channel-pictures/heaven.jpg">
+                                                                                                        </div>
+                                                                                                            <div class="video-info">
+                                                                                                                <p class="video-title">
+                                                                                                                    Heaven Knows I'm Miserable Now
+                                                                                                            </p>
+                                                                                                                <p class="video-author">
+                                                                                                                    THE SMITHS
+                                                                                                            </p>
+                                                                                                    
+                                                                                                            <p class="video-stats">
+                                                                                                                889M Plays
+                                                                                                            </p>
+                                                                                                            <button class="like-button">❤️</button>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="video-preview">
+                                                                                                        <div class="thumbnail-row" data-audio-src="audio/light.mp3" data-title="There is a light that never goes out" data-author="The Smiths" data-duration="4:04">
+                                                                                                            <img class="thumbnail"  src="thumbnails/light.webp">
+                                                                                                            <div class="video-time">
+                                                                                                                4:04
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="video-info-grid">
+                                                                                                            <div class="channel-picture" >
+                                                                                                                <img class="profile-picture" src="channel-pictures/heaven.jpg">
+                                                                                                            </div>
+                                                                                                                <div class="video-info">
+                                                                                                                    <p class="video-title">
+                                                                                                                        There is a light that never goes out 
+                                                                                                                </p>
+                                                                                                                    <p class="video-author">
+                                                                                                                        The Smiths
+                                                                                                                </p>
+                                                                                                        
+                                                                                                                <p class="video-stats">
+                                                                                                                    845M Plays
+                                                                                                                </p>
+                                                                                                                <button class="like-button">❤️</button>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        </div>
+                                                                                                        <div class="video-preview">
+                                                                                                            <div class="thumbnail-row" data-audio-src="audio/life.mp3" data-title="My Ordinary Life" data-author="The Living Tombstone" data-duration="4:05">
+                                                                                                                <img class="thumbnail"  src="thumbnails/life.webp">
+                                                                                                                <div class="video-time">
+                                                                                                                    4:05
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="video-info-grid">
+                                                                                                                <div class="channel-picture" >
+                                                                                                                    <img class="profile-picture" src="channel-pictures/life.jpg">
+                                                                                                                </div>
+                                                                                                                    <div class="video-info">
+                                                                                                                        <p class="video-title">
+                                                                                                                            My Ordinary Life
+                                                                                                                    </p>
+                                                                                                                        <p class="video-author">
+                                                                                                                        The Living Tombstone
+                                                                                                                    </p>
+                                                                                                            
+                                                                                                                    <p class="video-stats">
+                                                                                                                            788M Plays
+                                                                                                                    </p>
+                                                                                                                    <button class="like-button">❤️</button>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            </div>
+                                                                                                            <div class="video-preview">
+                                                                                                                <div class="thumbnail-row" data-audio-src="audio/fein.mp3" data-title="FE!N" data-author="Travis Scott" data-duration="3:29">
+                                                                                                                    <img class="thumbnail"  src="thumbnails/fein.webp">
+                                                                                                                    <div class="video-time">
+                                                                                                                        3:29
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                <div class="video-info-grid">
+                                                                                                                    <div class="channel-picture" >
+                                                                                                                        <img class="profile-picture" src="channel-pictures/fein.jpg">
+                                                                                                                    </div>
+                                                                                                                        <div class="video-info">
+                                                                                                                            <p class="video-title">
+                                                                                                                                FE!N
+                                                                                                                        </p>
+                                                                                                                            <p class="video-author">
+                                                                                                                                TRAVIS SCOTT
+                                                                                                                        </p>
+                                                                                                                
+                                                                                                                        <p class="video-stats">
+                                                                                                                                455M Plays
+                                                                                                                        </p>
+                                                                                                                        <button class="like-button">❤️</button>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                </div>
+                                                                                                                <div class="video-preview">
+                                                                                                                    <div class="thumbnail-row" data-audio-src="audio/luka.mp3" data-title="Luka Chippi" data-author="Seedhe Maut" data-duration="2:21">
+                                                                                                                        <img class="thumbnail"  src="thumbnails/luka.webp">
+                                                                                                                        <div class="video-time">
+                                                                                                                            2:21
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="video-info-grid">
+                                                                                                                        <div class="channel-picture" >
+                                                                                                                            <img class="profile-picture" src="channel-pictures/luka.jpg">
+                                                                                                                        </div>
+                                                                                                                            <div class="video-info">
+                                                                                                                                <p class="video-title">
+                                                                                                                                    Luka Chippi
+                                                                                                                            </p>
+                                                                                                                                <p class="video-author">
+                                                                                                                                    Seedhe Maut
+                                                                                                                            </p>
+                                                                                                                    
+                                                                                                                            <p class="video-stats">
+                                                                                                                                    45M Plays
+                                                                                                                            </p>
+                                                                                                                            <button class="like-button">❤️</button>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    </div>
+
+    </div>
+    <div class="audio-player" id="audio-player">
+        <div class="audio-info">
+            <p id="now-playing-title">Title: None</p>
+            <p id="now-playing-channel">Singer: None</p>
+            <p id="now-playing-duration">Duration: None</p>
+        </div>
+            
+        
+        <div id="audio-controls">
+            
+            <span id="current-time">0:00</span>
+            <input type="range" id="progress-bar" min="0" value="0">
+            <span id="total-duration">0:00</span>
+        </div>
+            
+       
+        <div class="control-buttons">
+            <button class="prev-button">⏮️</button>
+            <button class="play-pause-button">⏯️</button>
+            <button class="next-button">⏭️</button>
+        </div>
+
+        
+            
+        <audio id="audio-element">
+            <source src="audio/Tauba Tauba.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+    
+    
+    
+    
+    </body>
+</html>
